@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #282829;
+  background: linear-gradient(#22c1c3, #fdbb2d);
+  /* #282829; */
   color: #fff;
   font-family: 'poppins', sans-serif;
   display: flex;
@@ -31,7 +32,7 @@ body {
 .container a {
   /* 아래 밑줄이 없어짐 */
   text-decoration: none;
-  color: #802bb1;
+  color: #fdbb2d;
 }
 
 .btn {
@@ -40,7 +41,7 @@ body {
   display: inline-block;
   padding: 15px;
   width: 100%;
-  background-color: #802bb1;
+  background-color: #fdbb2d;
   font-family: inherit;
   box-shadow: 15px 5px 5px #171618;
   font-size: 16px;
@@ -86,7 +87,7 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: #802bb1;
+  border-bottom-color: #fdbb2d;
 }
 
 /* Email & password position이 밑줄 위로 올라감 */
@@ -105,7 +106,7 @@ body {
 
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-  color: #802bb1;
+  color: #fdbb2d;
   /* Email & Password 글자를 위로 올려주기 */
   transform: translateY(-30px);
 }
