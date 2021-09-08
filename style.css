@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #4c4950;
+  background-color: #282829;
   color: #fff;
-  font-family: 'Muli', sans-serif;
+  font-family: 'poppins', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +42,7 @@ body {
   width: 100%;
   background-color: #802bb1;
   font-family: inherit;
+  box-shadow: 15px 5px 5px #171618;
   font-size: 16px;
   /* Login부분 상자 테두리 없애기 */
   border: 0;
@@ -85,4 +86,11 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
+}
+
+/* Email & password position이 밑줄 위로 올라감 */
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
 }
